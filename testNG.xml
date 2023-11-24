@@ -1,0 +1,15 @@
+<suite name="Suite1" verbose="2">
+
+			<parameter name="username" value="admin"></parameter>
+			<parameter name="userpassword" value="admin" ></parameter>
+  
+ 
+	<test name="Mareketing">
+		<classes>
+	
+			<class name="com.rk_softwear_services.vtigerAutomation.TestScripts.MarketingAccountsTestScript" />
+
+		</classes>
+	</test>
+
+</suite>

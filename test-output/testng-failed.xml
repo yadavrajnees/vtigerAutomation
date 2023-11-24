@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" verbose="2">
+  <parameter name="username" value="admin"/>
+  <parameter name="userpassword" value="admin"/>
+  <test thread-count="5" name="Mareketing(failed)" verbose="2">
+    <classes>
+      <class name="com.rk_softwear_services.vtigerAutomation.TestScripts.MarketingAccountsTestScript">
+        <methods>
+          <include name="verifyVT001CreateAccountTestScript" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="verifyVT004DeleteAccountTestScript"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="verifyVT002EditAccountTestScript"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="verifyVT003DuplicateAccountTestScript"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.rk_softwear_services.vtigerAutomation.TestScripts.MarketingAccountsTestScript -->
+    </classes>
+  </test> <!-- Mareketing(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

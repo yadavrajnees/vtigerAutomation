@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-01T21:54:56 IST" name="Suite1" finished-at="2023-11-01T21:56:12 IST" duration-ms="76115">
+    <groups>
+    </groups>
+    <test started-at="2023-11-01T21:54:56 IST" name="Mareketing" finished-at="2023-11-01T21:56:12 IST" duration-ms="76115">
+      <class name="com.rk_softwear_services.vtigerAutomation.TestScripts.MarketingAccountsTestScript">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.rk_softwear_services.vtigerAutomation.TestScripts.MarketingAccountsTestScript@229f66ed]" started-at="2023-11-01T21:54:56 IST" name="beforeSuite" finished-at="2023-11-01T21:54:56 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.rk_softwear_services.vtigerAutomation.TestScripts.MarketingAccountsTestScript@229f66ed]" started-at="2023-11-01T21:54:56 IST" name="beforeTest" finished-at="2023-11-01T21:54:56 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.rk_softwear_services.vtigerAutomation.TestScripts.MarketingAccountsTestScript@229f66ed]" started-at="2023-11-01T21:54:56 IST" name="beforeClass" finished-at="2023-11-01T21:54:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.rk_softwear_services.vtigerAutomation.TestScripts.MarketingAccountsTestScript@229f66ed]" started-at="2023-11-01T21:54:56 IST" name="beforeMethod" finished-at="2023-11-01T21:55:07 IST" duration-ms="11460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.rk_softwear_services.vtigerAutomation.TestScripts.MarketingAccountsTestScript.verifyVT001CreateAccountTestScript(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyVT001CreateAccountTestScript(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.rk_softwear_services.vtigerAutomation.TestScripts.MarketingAccountsTestScript@229f66ed]" started-at="2023-11-01T21:55:07 IST" name="verifyVT001CreateAccountTestScript" data-provider="creating new account information" finished-at="2023-11-01T21:55:22 IST" duration-ms="14381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rajnish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6387911611]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rajneeshkumar9978@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kanpur]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[i am tester]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVT001CreateAccountTestScript -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.rk_softwear_services.vtigerAutomation.TestScripts.MarketingAccountsTestScript@229f66ed]" started-at="2023-11-01T21:55:22 IST" name="afterMethod" finished-at="2023-11-01T21:55:24 IST" duration-ms="2018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyVT001CreateAccountTestScript status=SUCCESS method=MarketingAccountsTestScript.verifyVT001CreateAccountTestScript(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.rk_softwear_services.vtigerAutomation.TestScripts.MarketingAccountsTestScript@229f66ed] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.rk_softwear_services.vtigerAutomation.TestScripts.MarketingAccountsTestScript.verifyVT001CreateAccountTestScript(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.rk_softwear_services.vtigerAutomation.TestScripts.MarketingAccountsTestScript@229f66ed]" started-at="2023-11-01T21:55:24 IST" name="beforeMethod" finished-at="2023-11-01T21:55:47 IST" duration-ms="23255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.rk_softwear_services.vtigerAutomation.TestScripts.MarketingAccountsTestScript.verifyVT001CreateAccountTestScript(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyVT001CreateAccountTestScript(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.rk_softwear_services.vtigerAutomation.TestScripts.MarketingAccountsTestScript@229f66ed]" started-at="2023-11-01T21:55:47 IST" name="verifyVT001CreateAccountTestScript" data-provider="creating new account information" finished-at="2023-11-01T21:56:10 IST" duration-ms="23325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prabhat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pr56@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[gazipur]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[i am electrical]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVT001CreateAccountTestScript -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.rk_softwear_services.vtigerAutomation.TestScripts.MarketingAccountsTestScript@229f66ed]" started-at="2023-11-01T21:56:10 IST" name="afterMethod" finished-at="2023-11-01T21:56:12 IST" duration-ms="1580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyVT001CreateAccountTestScript status=SUCCESS method=MarketingAccountsTestScript.verifyVT001CreateAccountTestScript(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.rk_softwear_services.vtigerAutomation.TestScripts.MarketingAccountsTestScript@229f66ed] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.rk_softwear_services.vtigerAutomation.TestScripts.MarketingAccountsTestScript.verifyVT001CreateAccountTestScript(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.rk_softwear_services.vtigerAutomation.TestScripts.MarketingAccountsTestScript@229f66ed]" started-at="2023-11-01T21:56:12 IST" name="afterTest" finished-at="2023-11-01T21:56:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.rk_softwear_services.vtigerAutomation.TestScripts.MarketingAccountsTestScript@229f66ed]" started-at="2023-11-01T21:56:12 IST" name="afterSuite" finished-at="2023-11-01T21:56:12 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.rk_softwear_services.vtigerAutomation.TestScripts.MarketingAccountsTestScript -->
+    </test> <!-- Mareketing -->
+  </suite> <!-- Suite1 -->
+</testng-results>
